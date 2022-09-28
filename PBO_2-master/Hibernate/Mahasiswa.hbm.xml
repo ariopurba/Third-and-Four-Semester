@@ -1,0 +1,9 @@
+<hibernate-mapping package="ti.hibernate">
+<class name="Mahasiswa" table="mahasiswa">
+<id name="nim" column="NIM">
+<generator class="assigned"/>
+</id>
+<property name="nama" type="string" column="Nama"/>
+<property name="ipk" type="string" column="IPK"/>
+</class>
+</hibernate-mapping>
